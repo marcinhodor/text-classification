@@ -1,5 +1,3 @@
-Polski / English
-
 Projekt dyplomowy zrealizowany w czasie studiów podyplomowych na Akademii Górniczo-Hutniczej w Krakowie na kierunku Analiza Danych - Data Science w roku akademickim 2020/2021.
 
 Tytuł: "Praktyczne zastosowanie narzędzi przetwarzania języka naturalnego w klasyfikacji tekstu"<br>
