@@ -19,11 +19,11 @@ Kod Python użyty do eksperymentu został umieszczony w 4 notebookach z rozszerz
 01_data_processing - import wiadomości z folderu data, czyszczenie tekstu, usuwanie *stopwords*, lematyzacja<br>
 02_NB_SVM_models - implementacja modeli NB i SVM oraz ocena ich skuteczności na danych testowych<br>
 03_BERT_model - implementacja modelu BERT oraz ocena jego skuteczności na danych testowych<br>
-04_AWS_Comprehend - przygotowanie danych do ich życia w sułudze AWS Comprehend, sprawdzenie trafności algorytmu poprzez porównaie przewidzianych etykiet z danymi rzeczywistymi ze zbioru testowego
+04_AWS_Comprehend - przygotowanie danych do ich użycia w usłudze AWS Comprehend, sprawdzenie trafności algorytmu poprzez porównanie przewidzianych etykiet z danymi rzeczywistymi ze zbioru testowego
 
 W celu przetestowania zapisanego kodu na danych należy:
 1. pobrać repozytorium z GitHub,
-1. rozpakować dane treningowe i testowe znajdujące się w pliku data.7z w folderze data (można użyć do tego programu 7-zip - https://www.7-zip.org/download.html) tak, aby wraz z notebookami tworzyły nastepującą strukturę folderów:<br>
+1. rozpakować dane treningowe i testowe znajdujące się w pliku data.7z w folderze data (można użyć do tego programu 7-zip - https://www.7-zip.org/download.html) tak, aby wraz z notebookami tworzyły następującą strukturę folderów:<br>
 
 ```
 text-classification
@@ -48,7 +48,7 @@ text-classification
 │ readme.md
 ```
 
-W eksperymencie wykorzystano zestaw danych o nazwie „*The 20 Newsgroups data set*” , zawierający ok. 19 tysięcy wiadomości (wpisów) w języku angielskim, podzielonych na 20 grup tematycznych. Autor tego zbioru danych podzielił go na podzbiory uczący i testowy zawierające odpowiednio 10729 i 7142 wpisy. Na potrzeby doświadczenia kategorie należące do jednej, szerszej klasy zostały ze sobą połączone, natomiast grupę misc.forsale (ogłoszenia sprzedaży) usunięto ze względu na odmienny charakter wpisów od pozostałych kategorii. Tym samym liczba grup została zmniejszona z 20 do 6, tj. *Automotive*, *Computers*, *Politics*, *Religion*, *Science* oraz *Sports*. Poniższy rysunek przedstawia w jaki sposób połączono oryginalne kategorie:
+W eksperymencie wykorzystano zestaw danych o nazwie „*The 20 Newsgroups data set*”, zawierający ok. 19 tysięcy wiadomości (wpisów) w języku angielskim, podzielonych na 20 grup tematycznych. Autor tego zbioru danych podzielił go na podzbiory uczący i testowy zawierające odpowiednio 10729 i 7142 wpisy. Na potrzeby doświadczenia kategorie należące do jednej, szerszej klasy zostały ze sobą połączone, natomiast grupę misc.forsale (ogłoszenia sprzedaży) usunięto ze względu na odmienny charakter wpisów od pozostałych kategorii. Tym samym liczba grup została zmniejszona z 20 do 6, tj. *Automotive*, *Computers*, *Politics*, *Religion*, *Science* oraz *Sports*. Poniższy rysunek przedstawia w jaki sposób połączono oryginalne kategorie:
 ```
 Automotive
 └───rec.autos
