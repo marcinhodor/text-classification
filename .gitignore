@@ -1,3 +1,7 @@
 data/20news-bydate-test
 data/20news-bydate-train
 pickles/
+other/
+TEST.py
+__pycache__
+/server
