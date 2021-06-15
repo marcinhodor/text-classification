@@ -8,7 +8,7 @@ Opiekun Projektu: dr inż. Robert Marcjan
 
 <hr>
 Implementacja projektu w formie aplikacji internatowej, która wykorzystuje modele Naive Bayes i Support Vector Machine (wytrenowene w ramach niniejszego projektu) do klasyfikacji wprowadzonego tekstu.<br>
-adres: https://text-classification-mh.herokuapp.com<br>
+link: https://text-classification-mh.herokuapp.com<br>
 profil GitHub: https://github.com/marcinhodor/text-classification-server
 <hr>
 
